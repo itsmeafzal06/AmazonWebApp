@@ -11,6 +11,7 @@
 	<parameter name="browser" value="chrome"/>
     <classes>
       <class name="TestCases.TC001_SearchBoxTest"/>
+      <class name="TestCases.TC002_AlexaSmartHome"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

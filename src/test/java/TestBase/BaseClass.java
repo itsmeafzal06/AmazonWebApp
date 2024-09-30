@@ -44,8 +44,7 @@ public class BaseClass {
 		
 	}
 	@AfterClass
-	void teardown() {
-		driver.close();
+	public void teardown() {
 		driver.quit();
 	}
 	
