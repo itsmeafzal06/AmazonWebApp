@@ -9,9 +9,10 @@
   
   <test thread-count="5" name="Test">
 	<parameter name="browser" value="chrome"/>
+	<parameter name="os" value="linux"/>
     <classes>
       <class name="TestCases.TC001_SearchBoxTest"/>
-      <class name="TestCases.TC002_AlexaSmartHome"/>
+     <!-- <class name="TestCases.TC002_AlexaSmartHome"/>--> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -5,14 +5,16 @@
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="linux"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.TC002_AlexaSmartHome">
+      <class name="TestCases.TC001_SearchBoxTest">
         <methods>
           <include name="setup"/>
-          <include name="AlexaSHTest"/>
+          <include name="SearchTest"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- TestCases.TC002_AlexaSmartHome -->
+      </class> <!-- TestCases.TC001_SearchBoxTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master] -->
